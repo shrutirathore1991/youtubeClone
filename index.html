@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Youtube</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+   <link href="https://fonts.googleapis.com/css2?family=REM:wght@300;500;600;700;800;900&family=Ruda:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+   <link rel="stylesheet" href="style.css">
+   <link
+   rel="icon"
+   type="image"
+   href="https://thumbs.dreamstime.com/b/web-189206689.jpg"
+ />
+  </head> 
+  <body>
+    <nav class="navbar">
+      <div class="toggle-btn" id="toggle">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+      <img src="img/logof.jpg" class="logo" alt="">
+      <div class="search-container">
+      <input type="text" id="search-input" placeholder="Search Video" >
+    <button id = "search" oninput="search()">Search</button>
+    </div>
+      <div class="user-options">
+          <img src="img/videoicon.jpg" class="icon" alt="">
+          <img src="img/gridicon.png" class="icon" alt="">
+          <img src="img/bellicon.png" class="icon" alt="">
+          <div class="user-dp">
+              <img src="img/usericon.png" alt="">
+          </div>
+      </div>
+  </nav>
+    
+     <!-- sidebar -->
+     <div class="side-bar" id="sidebar">
+      <a href="#" class="links active"><img src="img/home.jpg" alt="">home</a>
+      <a href="#" class="links"><img src="img/shorts.jpg" alt="">Shorts</a>
+      <a href="#" class="links"><img src="img/subscription.jpg" alt="">subscription</a>
+      <hr class="seperator">
+      <a href="#" class="links"><img src="img/library.jpg" alt="">library</a>
+      <a href="#" class="links"><img src="img/history.jpg" alt="">history</a>
+      <a href="#" class="links"><img src="img/your-video.jpg" alt="">your video</a>
+      <a href="#" class="links"><img src="img/watch-later.jpg" alt="">watch later</a>
+      <a href="#" class="links"><img src="img/liked video.jpg" alt="">like video</a>
+      <a href="#" class="links"><img src="img/show more.jpg" alt="">show more</a>
+  </div>
+ 
+  <div class="filters">
+    <button class="filter-options active">all</button>
+    <button class="filter-options">CSS</button>
+    <button class="filter-options">web development</button>
+    <button class="filter-options">python</button>
+    <button class="filter-options">entertainment</button>
+    <button class="filter-options">marvel</button>
+    <button class="filter-options">javascript</button>
+    <button class="filter-options">artificial intelligence</button>
+    <button class="filter-options">machine learning</button>
+    <button class="filter-options">trending</button>
+</div>
+    <div id="container" class="container">
+
+    </div>
+
+    <script src=" ./script.js"></script>
+  </body>
+</html>
